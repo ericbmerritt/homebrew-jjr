@@ -2,11 +2,7 @@ class Ggr < Formula
   desc "Local terminal review surface for GitHub pull requests"
   homepage "https://github.com/ericbmerritt/local-review"
   url "https://github.com/ericbmerritt/local-review/archive/refs/tags/ggr-v0.1.0.tar.gz"
-  # TODO: replace with the real sha256 once ggr-v0.1.0 is tagged. Run:
-  #   curl -sL https://github.com/ericbmerritt/local-review/archive/refs/tags/ggr-v0.1.0.tar.gz | shasum -a 256
-  # From ggr-v0.2.0 onward, the `release-brew-ggr` workflow in the source repo
-  # updates `url` + `sha256` automatically on every ggr-v* tag.
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "08bbb4a6a1c47ddf691f46e3986de00cc989d2891432ba3772ff1307e4eb6380"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/ericbmerritt/local-review.git", branch: "main"
 
