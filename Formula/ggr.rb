@@ -1,8 +1,8 @@
 class Ggr < Formula
   desc "Local terminal review surface for GitHub pull requests"
   homepage "https://github.com/ericbmerritt/local-review"
-  url "https://github.com/ericbmerritt/local-review/archive/refs/tags/ggr-v0.1.0.tar.gz"
-  sha256 "08bbb4a6a1c47ddf691f46e3986de00cc989d2891432ba3772ff1307e4eb6380"
+  url "https://github.com/ericbmerritt/local-review/archive/refs/tags/ggr-v0.1.3.tar.gz"
+  sha256 "e57695ef9280d1c3d829e9cf38db483319a62f810df0682adf82bb73dea7fa68"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/ericbmerritt/local-review.git", branch: "main"
 
